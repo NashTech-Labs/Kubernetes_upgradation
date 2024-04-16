@@ -1,0 +1,4 @@
+# Find the latest 1.29 version in the list.
+# It should look like 1.29.x-*, where x is the latest patch.
+sudo apt update
+sudo apt-cache madison kubeadm
